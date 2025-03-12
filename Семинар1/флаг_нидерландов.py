@@ -10,7 +10,7 @@ def sort_012(arr):
             mid += 1
         elif arr[mid] == 1:
             mid += 1
-        else:  # arr[mid] == 2
+        else:  
             arr[mid], arr[high] = arr[high], arr[mid]
             high -= 1
 
